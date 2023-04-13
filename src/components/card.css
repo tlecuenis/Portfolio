@@ -1,0 +1,83 @@
+.projects-container__project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+
+    max-width: 35rem;
+    border: 5px solid var(--primary-light);
+    border-radius: 1rem;
+    color: var(--primary-text);
+
+    overflow: hidden;
+    transition: 0.3s;
+}
+.projects-container__project:hover{
+    scale: 1.05;
+}
+.projects-container__img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    
+    /* background-image: url(../assets/facebook-page.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projects-container__hover{
+    position: relative;
+    /* bottom: calc(width / 9); */
+    /* bottom: -13.5rem; */
+    bottom: -80%;
+    height: 100%;
+    transition: 0.3s;
+    background-color: rgba(72, 72, 72, 0.7); /* --primary-light pero en rgba */
+    /* border-radius: 1rem; */
+}
+
+.projects-container__project:hover .projects-container__hover{
+    bottom: 0; 
+}
+
+
+.projects-container__title{
+    width: 100%;
+    margin: 0;    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+    background-color: var(--primary-light);
+}
+
+.projects-container__description{
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.project-container__flex{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-container__button{
+    width: 6rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+    
+    color: var(--primary-text);
+    background-color: var(--primary-light);
+}
+
+.projects-container__button:hover{
+    color: var(--secondary-text);
+    background-color: var(--secondary)
+
+}

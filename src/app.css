@@ -1,0 +1,50 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 130rem;
+    /* min-width: 35rem; */
+    min-width: 23rem;
+    margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+:root{
+    /* primary colors */
+    --primary: #212121;
+    --primary-light: #484848;
+    --primary-dark: #000000;
+    --primary-text: #ffffff;
+    /* secondary colors */
+    --secondary: #fff176;
+    --secondary-light: #ffffa8;
+    --secondary-dark: #cabf45;
+    --secondary-text: #000000;
+    /* font-weight */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* font-size */
+    --font-title: 3.2rem;
+
+    /* grid column calc */
+    --grid-layout-gap: 1rem;
+    --grid-column-count: 2;
+    --grid-item--min-width: 35rem;
+    --gap-count: calc(var(--grid-column-count)-1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+}

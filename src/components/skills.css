@@ -1,0 +1,101 @@
+.skills-container{
+    background-color: var(--primary);
+    padding-bottom: 5rem;
+}
+
+.skills-container__title{
+   
+    /* width: 20rem;
+    margin: 0;
+    padding: 0 2rem 0 20%; */
+    max-width: 20rem;
+    min-width: 16rem;
+    margin: 0 0 2rem 0;
+    padding: 0 2rem 0 15%;
+    
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 4rem;
+    font-weight: var(--font-normal);
+    background-color: var(--secondary);
+    
+    border-top-right-radius: 1rem;
+}
+
+.skills-container__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-rows: 8rem;
+    gap: 3rem;
+    margin: 5rem;
+
+}
+
+.skills-html{
+    background: url(../assets/html-icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.skills-css{
+    background: url(../assets/css3-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-tail{
+    background: url(../assets/tailwind.icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-js{
+    background: url(../assets/Javascript-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-react{
+    background: url(../assets/react-icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-git{
+    background: url(../assets/git-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-figma{
+    background: url(../assets/figma-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-rhino{
+    background: url(../assets/rhino-icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-solid{
+    background: url(../assets/solid-icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.skills-effect:hover{
+    scale: 1.2;
+}

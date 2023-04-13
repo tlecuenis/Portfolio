@@ -1,0 +1,20 @@
+.footer{
+    margin: 0;
+    background-color: var(--primary);
+    border-top: 2px solid var(--secondary);
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.copyright{
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-text);
+}
+.sm{
+    font-size: 1.2rem;
+}
