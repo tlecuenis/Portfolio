@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d47b3f13.css",
+    "main.js": "/static/js/main.1aeb077f.js",
+    "static/media/vid-pica.avi": "/static/media/vid-pica.c6d491621d169da668a4.avi",
+    "static/media/calcu.png": "/static/media/calcu.47515cf2654f1d6cad65.png",
+    "static/media/tarjetas.png": "/static/media/tarjetas.5ccc075c902f609e6cad.png",
+    "static/media/model-pica.png": "/static/media/model-pica.7b7570692b859563f3a3.png",
+    "static/media/CV-Lecuenis.pdf": "/static/media/CV-Lecuenis.a5d4477ba8444af32c41.pdf",
+    "static/media/react-icon2.png": "/static/media/react-icon2.8a6fc0a24a800d1e0f4a.png",
+    "static/media/2-Foto-tipo-DNI.jpg": "/static/media/2-Foto-tipo-DNI.d4b63f172ef2093da0d0.jpg",
+    "static/media/fetch.png": "/static/media/fetch.048e8dcd4e0c89f749c4.png",
+    "static/media/rhino-icon2.png": "/static/media/rhino-icon2.809aabcf84937ccd8e6a.png",
+    "static/media/piedrapt.png": "/static/media/piedrapt.878ff31720264a1d4e2d.png",
+    "static/media/html-icon2.png": "/static/media/html-icon2.323dab0ccafeb98fae45.png",
+    "static/media/solid-icon2.png": "/static/media/solid-icon2.cc814c888e2cf366975c.png",
+    "static/media/tailwind.icon.png": "/static/media/tailwind.icon.ec43dcb409dc1808744b.png",
+    "static/media/todo.png": "/static/media/todo.9cfd3b1fc20a11bc1f58.png",
+    "static/media/figma-icon.png": "/static/media/figma-icon.46400ab8543f71a3650b.png",
+    "static/media/css3-icon.png": "/static/media/css3-icon.57feb85c31eec0ff2e1a.png",
+    "index.html": "/index.html",
+    "main.d47b3f13.css.map": "/static/css/main.d47b3f13.css.map",
+    "main.1aeb077f.js.map": "/static/js/main.1aeb077f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d47b3f13.css",
+    "static/js/main.1aeb077f.js"
+  ]
+}
