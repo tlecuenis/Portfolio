@@ -38,7 +38,7 @@ export const Nav = () => {
                 <input type="checkbox" /> {/* input dentro del label para que al presionar el label funcione el input */}
             </label>}
 
-            {hamburger && <div className='mobile-menu'>
+            {(hamburger && windowWidth < 700) && <div className='mobile-menu'>
                 <div>
                     <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><button className='nav-container__buttons-mobile' >Projects</button></Link>
                     <Link to='skills' spy={true} smooth={true} offset={-30} duration={600}><button className='nav-container__buttons-mobile' >Skills</button></Link>

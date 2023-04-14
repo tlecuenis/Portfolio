@@ -50,6 +50,7 @@
     color: blue;
     background-color: white;
     /* border-radius: 100%; */
+    /* transition: 0.2s; */
 }
 
 .hamburger-menu input{
@@ -62,8 +63,10 @@
 
 .mobile-menu{
     position: absolute;
-    right: 30px;
-    top: 5px;
+    top: 2%;
+    width: 100vw;
+    transition: 1.2s;
+    
 }
 
 .mobile-menu div{
@@ -72,11 +75,11 @@
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
-    width: 160px;
-    height: 260px;
-    border-radius: 1rem;
-    border-top-right-radius: 0;
-    background-color: var(--primary-dark);
+    width: 100%;
+    height: 280px;
+    padding-bottom: 2rem;
+    
+    background-color: var(--primary);
 }
 
 .mobile-menu div :nth-child(3){
