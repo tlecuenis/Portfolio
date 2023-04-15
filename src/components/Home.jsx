@@ -1,5 +1,5 @@
 import "./home.css"
-import CV from "../assets/CV-Lecuenis.pdf"
+import CV from "../assets/lecuenis-cv.pdf"
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import { useState } from "react"
 export const Home = () => {
@@ -28,7 +28,7 @@ export const Home = () => {
                             
                         </CopyToClipboard>
                         <a href="https://github.com/tlecuenis"><button className='home-container__button gh'>GitHub</button></a>
-                        <a href={CV} download="CV-Lecuenis.pdf"><button className='home-container__button cv' title="Download CV">CV</button></a>
+                        <a href={CV} download="lecuenis-cv.pdf"><button className='home-container__button cv' title="Download CV">CV</button></a>
                     </div>
                     </div>
             </div>
