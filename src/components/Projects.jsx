@@ -39,7 +39,7 @@ export const Projects = () => {
         {
             id: 4,
             name: 'Animated Cards',
-            description: 'Replicate of social media cards with animations, using design knlowledge',
+            description: 'Social media cards replica with animations, using design knlowledge',
             image: imgTar,
             deploy: 'https://tlecuenis.github.io/animated-cards/',
             repositorie: 'https://github.com/tlecuenis/animated-cards'
@@ -47,7 +47,7 @@ export const Projects = () => {
         {
             id: 5,
             name: '✊-✋-✌',
-            description: 'There is no person who never played this game. Developed in JavaScript',
+            description: 'Everyone has ever played this game. Developed in JavaScript',
             image: imgPpt,
             deploy: 'https://tlecuenis.github.io/piedra-papel-tijera/',
             repositorie: 'https://github.com/tlecuenis/piedra-papel-tijera'
@@ -57,7 +57,7 @@ export const Projects = () => {
         {
             id: 6,
             name: 'Meat mincer',
-            description: 'Design of a real kitchen tool. Modeled in Rhinoceros and rendered in Keyshot',
+            description: 'Real kitchen tool design. Modelled in Rhinoceros and rendered in Keyshot',
             image: imgPica,
             deploy: vidPica,
             picture: imgPica
