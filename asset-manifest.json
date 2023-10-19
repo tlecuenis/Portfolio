@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a1181f61.css",
-    "main.js": "/portfolio/static/js/main.b5f29948.js",
+    "main.js": "/portfolio/static/js/main.9077f670.js",
     "static/media/vid-pica.avi": "/portfolio/static/media/vid-pica.c6d491621d169da668a4.avi",
     "static/media/calcu.png": "/portfolio/static/media/calcu.47515cf2654f1d6cad65.png",
     "static/media/tarjetas.png": "/portfolio/static/media/tarjetas.5ccc075c902f609e6cad.png",
     "static/media/model-pica.png": "/portfolio/static/media/model-pica.7b7570692b859563f3a3.png",
     "static/media/lecuenis-cv.pdf": "/portfolio/static/media/lecuenis-cv.ab00dd5d1a8290156388.pdf",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.92326432b758a186627f.png",
     "static/media/react-icon2.png": "/portfolio/static/media/react-icon2.8a6fc0a24a800d1e0f4a.png",
     "static/media/2-Foto-tipo-DNI.jpg": "/portfolio/static/media/2-Foto-tipo-DNI.d4b63f172ef2093da0d0.jpg",
     "static/media/fetch.png": "/portfolio/static/media/fetch.048e8dcd4e0c89f749c4.png",
@@ -20,10 +21,10 @@
     "static/media/css3-icon.png": "/portfolio/static/media/css3-icon.57feb85c31eec0ff2e1a.png",
     "index.html": "/portfolio/index.html",
     "main.a1181f61.css.map": "/portfolio/static/css/main.a1181f61.css.map",
-    "main.b5f29948.js.map": "/portfolio/static/js/main.b5f29948.js.map"
+    "main.9077f670.js.map": "/portfolio/static/js/main.9077f670.js.map"
   },
   "entrypoints": [
     "static/css/main.a1181f61.css",
-    "static/js/main.b5f29948.js"
+    "static/js/main.9077f670.js"
   ]
 }
