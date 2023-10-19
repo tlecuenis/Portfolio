@@ -8,12 +8,21 @@ import imgPpt from '../assets/project-img/piedrapt.png'
 import imgTar from '../assets/project-img/tarjetas.png' 
 import imgPica from '../assets/project-img/model-pica.png'
 import vidPica from '../assets/project-img/vid-pica.avi'
+import imgEco from '../assets/project-img/ecommerce.png'
 
 export const Projects = () => {
 
     const cardsFront = [
         {
             id: 1,
+            name: 'Lech Marketplace',
+            description: 'Fancy ecommerce, fetching products from fakestoreapi. Developed in React.js',
+            image: imgEco,
+            deploy: 'https://tlecuenis.github.io/Lech-marketplace/',
+            repositorie: 'https://github.com/tlecuenis/Lech-marketplace'
+        },
+        {
+            id: 2,
             name: 'Phone contacts',
             description: 'Fetching data from jsonplaceholder combined with forms. Developed in React.js',
             image: imgFetch,
@@ -21,7 +30,7 @@ export const Projects = () => {
             repositorie: 'https://github.com/tlecuenis/fetching-data'
         },
         {
-            id: 2,
+            id: 3,
             name: 'Calculator',
             description: 'Great designed calculator, without using eval function. Developed in React.js',
             image: imgCalcu,
@@ -29,7 +38,7 @@ export const Projects = () => {
             repositorie: 'https://github.com/tlecuenis/calculator'
         },
         {
-            id: 3,
+            id: 4,
             name: 'To do list',
             description: 'Functional to do list, emphasizing in DOM manipulation. Developed in JavaScript',
             image: imgTodo,
@@ -37,7 +46,7 @@ export const Projects = () => {
             repositorie: 'https://github.com/tlecuenis/todo-list'
         },
         {
-            id: 4,
+            id: 5,
             name: 'Animated Cards',
             description: 'Social media cards replica with animations, using design knlowledge',
             image: imgTar,
@@ -45,17 +54,18 @@ export const Projects = () => {
             repositorie: 'https://github.com/tlecuenis/animated-cards'
         },
         {
-            id: 5,
+            id: 6,
             name: '✊-✋-✌',
             description: 'Everyone has ever played this game. Developed in JavaScript',
             image: imgPpt,
             deploy: 'https://tlecuenis.github.io/piedra-papel-tijera/',
             repositorie: 'https://github.com/tlecuenis/piedra-papel-tijera'
         }
+        
     ]
     const cardsModel = [
         {
-            id: 6,
+            id: 7,
             name: 'Meat mincer',
             description: 'Real kitchen tool design. Modelled in Rhinoceros and rendered in Keyshot',
             image: imgPica,
