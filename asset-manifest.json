@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.16a8d4d0.css",
-    "main.js": "/portfolio/static/js/main.f169667d.js",
+    "main.js": "/portfolio/static/js/main.056e0215.js",
     "static/media/vid-pica.avi": "/portfolio/static/media/vid-pica.c6d491621d169da668a4.avi",
     "static/media/CV-Software.pdf": "/portfolio/static/media/CV-Software.da19f9ba24d1e67b5eaa.pdf",
     "static/media/calcu.png": "/portfolio/static/media/calcu.47515cf2654f1d6cad65.png",
@@ -22,10 +22,10 @@
     "static/media/css3-icon.png": "/portfolio/static/media/css3-icon.57feb85c31eec0ff2e1a.png",
     "index.html": "/portfolio/index.html",
     "main.16a8d4d0.css.map": "/portfolio/static/css/main.16a8d4d0.css.map",
-    "main.f169667d.js.map": "/portfolio/static/js/main.f169667d.js.map"
+    "main.056e0215.js.map": "/portfolio/static/js/main.056e0215.js.map"
   },
   "entrypoints": [
     "static/css/main.16a8d4d0.css",
-    "static/js/main.f169667d.js"
+    "static/js/main.056e0215.js"
   ]
 }
