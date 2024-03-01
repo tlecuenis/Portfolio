@@ -13,6 +13,7 @@ export function App() {
     <div className="main-container">
       <Nav/>
       <Home/>
+      <About/>
       <Projects/>
       <Skills/>
       <Contact/>

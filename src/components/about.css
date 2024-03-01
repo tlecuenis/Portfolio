@@ -1,0 +1,115 @@
+.about-container{
+    margin: 0;
+    padding: 0;
+    background-color:var(--primary);
+}
+
+.about__title{   
+    /* width: 20rem;
+    margin: 0;
+    padding: 0 2rem 0 20%; */
+    max-width: 20rem;
+    min-width: 16rem;
+    margin: 0 0 2rem 0;
+    padding: 0 2rem 0 15%;
+    
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 4em;
+    font-weight: var(--font-normal);
+    background-color: var(--secondary);
+    
+    border-top-right-radius: 1rem;
+    
+}
+
+.about-flex{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.about-flex__whoami{
+    background-color: var(--primary-light);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 400px;
+    padding: 0px 20px 0px 50px;
+    color: white;
+    max-width: 800px;
+    font-size: 1.1rem;
+}
+.about-flex__name{
+    font-size: 1.25rem;
+}
+.about-flex__whoami li{
+    list-style: none;
+}
+.about-flex__whoami ul{
+    padding: 0;
+}
+.inner{
+    padding-left: 40px;
+}
+
+/* .about-grid__whoami .outter:nth-child(1){
+    list-style-type: "\1F4DC";
+}
+.about-grid__whoami .outter:nth-child(3){
+    list-style-type: "\1F499";
+}
+.about-grid__whoami .outter:nth-child(4){
+    list-style-type: "\1F60E";
+}
+.about-grid__whoami .outter:nth-child(5){
+    list-style-type: "\1F919";
+} */
+
+/* "\1F60E" ANTEOJOS */
+/* "\1F919" MANITO */
+/* "\1F499" CORAZON */
+/* "\1F4DC" PERGAMINO */
+/* "\1F60E" */ 
+
+
+.about-flex__picture{
+    
+    object-fit: cover;
+    /* width: 350px; */
+    height: 400px;
+    object-view-box: inset(0% 10% 50% 10%);
+}
+
+@media (width <= 660px){
+    .about-container{
+        font-size: 70%;
+    }
+    .about__title{
+        max-width: 100%;
+        min-width: fit-content;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border-top-right-radius: 0;
+    }
+    .about-flex__whoami{
+        height: fit-content;
+    }
+    .about-flex__picture{
+        display: none;
+    }
+}
+
+@media (width <= 1240px){
+    .about-flex__whoami{
+        background-color: var(--primary);
+    }
+    .about-flex__picture{
+        display: none;
+    }
+}

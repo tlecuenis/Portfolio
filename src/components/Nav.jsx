@@ -24,6 +24,7 @@ export const Nav = () => {
             <button className='nav-container__buttons left'>Lecuenis</button>
             
             {windowWidth >= 700 && <div className='nav-container__flex'>
+                <Link to='about' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons right' >About</button></Link>
                 <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><button className='nav-container__buttons right' >Projects</button></Link>
                 <Link to='skills' spy={true} smooth={true} offset={-30} duration={600}><button className='nav-container__buttons right' >Skills</button></Link>
                 <Link to='contact' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons right' >Contacts</button></Link>
@@ -40,6 +41,7 @@ export const Nav = () => {
 
             {(hamburger && windowWidth < 700) && <div className='mobile-menu'>
                 <div>
+                    <Link to='about' spy={true} smooth={true} offset={-30} duration={400}><button className='nav-container__buttons-mobile' >About</button></Link>
                     <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><button className='nav-container__buttons-mobile' >Projects</button></Link>
                     <Link to='skills' spy={true} smooth={true} offset={-30} duration={600}><button className='nav-container__buttons-mobile' >Skills</button></Link>
                     <Link to='contact' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons-mobile' >Contacts</button></Link>

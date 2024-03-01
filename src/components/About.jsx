@@ -1,21 +1,29 @@
+import './about.css'
+import gridPicture from '../assets/20231217_132715.jpg'
+
 export const About = () => {
     return(
-        <div className="about-container">
-            
-            <div className="about-container__whoami">
-                <p className="about-container__soft-skills">
-                    💡 I'm proactive, organized and passionate about learning new skills.
-                </p>
-                <p className="about-container__education">
-                    🧠 Learning: Frontend Developer (Platzi Academy) & Bachelor of Management Information Systems (UADE)
-
-                </p>
-                <p className="about-container__certified">📜 Certified: Electronic technitian (Pio IX Institute)</p>
-                <p className="about-container__nationality">💙 Nationality: Argentina</p>
-                <p className="about-container__age">😎 Age: 20</p>
-                
+        <div className="about-container about">
+            <p className="about__title">About Me</p>
+            <div className='about-flex'>
+                <div className="about-flex__whoami">
+                <p className='about-flex__name'>Tomás Matías Lecuenis</p>
+                    <p>I'm currently studying bachelor's degree in systems in UADE and in my free time learning fullstack development by my self. I've been in many teams of work as Electronic technitian and done very variant tasks. Some of them were developing microcontrollers for IOT projects, modeling and rendering, etc.</p>
+                    <ul>
+                        <li className='outter'>📜  Certifications: </li>
+                        <ul>
+                            <li className='inner'>Fullstack Developer (Platzi Academy)</li>
+                            <li className='inner'>Electronic technitian (Pio IX Institute)</li>
+                            <li className='inner'>Linux and Bash (RedHat Academy)</li>
+                        </ul>
+                        <li className='outter'>💙  Nationality: Argentina</li>
+                        <li className='outter'>🤙  Birthdate: NOV/13/2002</li>
+                        <li className='outter'>🤩  Hobby: Rugby (Club Italiano)</li>
+                    </ul>
+                    
+                </div>
+                <img src={gridPicture} alt="" className="about-flex__picture"/>
             </div>
-            <img src="" alt="" className="about-container__picture"/>
         </div>
     )
 }

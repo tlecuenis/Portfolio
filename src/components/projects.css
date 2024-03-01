@@ -2,7 +2,7 @@
     background-color: var(--primary);
     margin-bottom: 0;
     padding-bottom: 10rem;
-
+    font-size: 100%;
 }
 
 .modeling-title, .programming-title{
@@ -53,11 +53,27 @@
     min-width: fit-content;
     margin: 0 0 2rem 0;
     padding: 0 0 0 15%;
+    /* padding: 0 0 0 1em; */
 
     border-top-right-radius: 1rem;
 
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: var(--font-normal);
     background-color: var(--secondary);
     text-transform: uppercase;
+}
+
+@media (width <= 660px){
+    .projects{
+        font-size: 70%;
+    }
+    .projects-title{
+        max-width: 100%;
+        min-width: fit-content;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border-top-right-radius: 0;
+    }
 }
