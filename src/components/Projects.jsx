@@ -109,7 +109,7 @@ export const Projects = () => {
     return(
         <div className="projects" id="projects">
             <p className="projects-title">Projects</p>
-            <p className="programming-title">Web Development</p>
+            <p className="programming-title">Web Pages</p>
             <div className="projects-container projects__programming">
                 {cardsFront.map(front => (
                     <Card key={front.id} projectName={front.name} description={front.description} imgBackground={front.image} deploy={front.deploy} repositorie={front.repositorie}/>
