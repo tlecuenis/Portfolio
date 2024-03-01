@@ -23,7 +23,7 @@ export const Nav = () => {
             {/* logo */}
             <button className='nav-container__buttons left'>Lecuenis</button>
             
-            {windowWidth >= 700 && <div className='nav-container__flex'>
+            {windowWidth >= 780 && <div className='nav-container__flex'>
                 <Link to='about' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons right' >About</button></Link>
                 <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><button className='nav-container__buttons right' >Projects</button></Link>
                 <Link to='skills' spy={true} smooth={true} offset={-30} duration={600}><button className='nav-container__buttons right' >Skills</button></Link>
@@ -35,11 +35,11 @@ export const Nav = () => {
                 <Link to='contact' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons right' >Contacts</button></Link>
             </div>} */}
 
-            {windowWidth < 700 && <label className='hamburger-menu' onFocus={handleBurger}>
+            {windowWidth < 780 && <label className='hamburger-menu' onFocus={handleBurger}>
                 <input type="checkbox" /> {/* input dentro del label para que al presionar el label funcione el input */}
             </label>}
 
-            {(hamburger && windowWidth < 700) && <div className='mobile-menu'>
+            {(hamburger && windowWidth < 780) && <div className='mobile-menu'>
                 <div>
                     <Link to='about' spy={true} smooth={true} offset={-30} duration={400}><button className='nav-container__buttons-mobile' >About</button></Link>
                     <Link to='projects' spy={true} smooth={true} offset={-30} duration={500}><button className='nav-container__buttons-mobile' >Projects</button></Link>
