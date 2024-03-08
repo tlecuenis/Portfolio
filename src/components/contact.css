@@ -9,7 +9,7 @@
     /* width: 20rem; */
     max-width: 20rem;
     min-width: 16rem;
-    margin: 0 0 2rem 0;
+    margin: 0 0 3rem 0;
     padding: 0 2rem 0 15%;
     /* padding: 0 2rem 0 20%; */
     
@@ -98,7 +98,7 @@
         min-width: fit-content;
         width: 100%;
         text-align: center;
-        margin: 0;
+        margin: 0 0 3rem 0;
         padding: 0;
         border-top-right-radius: 0;
     }

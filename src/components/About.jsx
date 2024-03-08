@@ -1,5 +1,5 @@
 import './about.css'
-import gridPicture from '../assets/20231217_132715.jpg'
+import gridPicture from '../assets/2-Foto-tipo-DNI.jpg'
 
 export const About = () => {
     return(

@@ -1,6 +1,6 @@
 .skills-container{
     background-color: var(--primary);
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 .skills-container__title{
@@ -27,7 +27,7 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-auto-rows: 8rem;
     gap: 3rem;
-    margin: 5rem;
+    margin: 4rem 4rem 0rem 4rem;
 
 }
 
@@ -46,13 +46,7 @@
     background-size: contain;
     transition: 0.3s;
 }
-.skills-tail{
-    background: url(../assets/tailwind.icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: 0.3s;
-}
+
 .skills-js{
     background: url(../assets/Javascript-icon.png);
     background-repeat: no-repeat;
@@ -67,6 +61,34 @@
     background-size: contain;
     transition: 0.3s;
 }
+.skills-node{
+    background: url(../assets/node-js-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-express{
+    background: url(../assets/express-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-python{
+    background: url(../assets/python-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
+.skills-java{
+    background: url(../assets/java-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
 .skills-git{
     background: url(../assets/git-icon.png);
     background-repeat: no-repeat;
@@ -74,22 +96,15 @@
     background-size: contain;
     transition: 0.3s;
 }
+.skills-sql{
+    background: url(../assets/mysql-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s;
+}
 .skills-figma{
     background: url(../assets/figma-icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: 0.3s;
-}
-.skills-rhino{
-    background: url(../assets/rhino-icon2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: 0.3s;
-}
-.skills-solid{
-    background: url(../assets/solid-icon2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -107,6 +122,7 @@
     .skills-container__grid{
         grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
         grid-auto-rows: 8rem;
+
     }
     .skills-container__title{
         max-width: 100%;

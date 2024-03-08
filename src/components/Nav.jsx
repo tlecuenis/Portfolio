@@ -35,8 +35,8 @@ export const Nav = () => {
                 <Link to='contact' spy={true} smooth={true} offset={-30} duration={700}><button className='nav-container__buttons right' >Contacts</button></Link>
             </div>} */}
 
-            {windowWidth < 780 && <label className='hamburger-menu' onFocus={handleBurger}>
-                <input type="checkbox" /> {/* input dentro del label para que al presionar el label funcione el input */}
+            {windowWidth < 780 && <label className={hamburger === false ? 'closed hamburger-menu' : 'opened hamburger-menu'} onFocus={handleBurger}>
+                <input type="checkbox"/> {/* input dentro del label para que al presionar el label funcione el input */}
             </label>}
 
             {(hamburger && windowWidth < 780) && <div className='mobile-menu'>
