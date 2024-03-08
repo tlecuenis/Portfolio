@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.16a8d4d0.css",
-    "main.js": "/portfolio/static/js/main.056e0215.js",
+    "main.css": "/portfolio/static/css/main.a8600e77.css",
+    "main.js": "/portfolio/static/js/main.8e52d54e.js",
     "static/media/vid-pica.avi": "/portfolio/static/media/vid-pica.c6d491621d169da668a4.avi",
     "static/media/CV-Software.pdf": "/portfolio/static/media/CV-Software.da19f9ba24d1e67b5eaa.pdf",
     "static/media/calcu.png": "/portfolio/static/media/calcu.47515cf2654f1d6cad65.png",
@@ -9,23 +9,25 @@
     "static/media/model-pica.png": "/portfolio/static/media/model-pica.7b7570692b859563f3a3.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.92326432b758a186627f.png",
     "static/media/react-icon2.png": "/portfolio/static/media/react-icon2.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python-icon.png": "/portfolio/static/media/python-icon.dea924d737bb84eb9ce3.png",
     "static/media/2-Foto-tipo-DNI.jpg": "/portfolio/static/media/2-Foto-tipo-DNI.d4b63f172ef2093da0d0.jpg",
     "static/media/fetch.png": "/portfolio/static/media/fetch.048e8dcd4e0c89f749c4.png",
     "static/media/20231217_132715.jpg": "/portfolio/static/media/20231217_132715.a9c72dc3d10ce82dca36.jpg",
-    "static/media/rhino-icon2.png": "/portfolio/static/media/rhino-icon2.809aabcf84937ccd8e6a.png",
     "static/media/piedrapt.png": "/portfolio/static/media/piedrapt.878ff31720264a1d4e2d.png",
     "static/media/html-icon2.png": "/portfolio/static/media/html-icon2.323dab0ccafeb98fae45.png",
-    "static/media/solid-icon2.png": "/portfolio/static/media/solid-icon2.cc814c888e2cf366975c.png",
-    "static/media/tailwind.icon.png": "/portfolio/static/media/tailwind.icon.ec43dcb409dc1808744b.png",
+    "static/media/mysql-icon.png": "/portfolio/static/media/mysql-icon.2f2132d4838335ce808e.png",
+    "static/media/express-icon.png": "/portfolio/static/media/express-icon.375eee7619857b2ae37a.png",
     "static/media/todo.png": "/portfolio/static/media/todo.9cfd3b1fc20a11bc1f58.png",
     "static/media/figma-icon.png": "/portfolio/static/media/figma-icon.46400ab8543f71a3650b.png",
+    "static/media/java-icon.png": "/portfolio/static/media/java-icon.24b991f8b322c382e6a2.png",
     "static/media/css3-icon.png": "/portfolio/static/media/css3-icon.57feb85c31eec0ff2e1a.png",
+    "static/media/node-js-icon.png": "/portfolio/static/media/node-js-icon.8f912e6eff277ae16489.png",
     "index.html": "/portfolio/index.html",
-    "main.16a8d4d0.css.map": "/portfolio/static/css/main.16a8d4d0.css.map",
-    "main.056e0215.js.map": "/portfolio/static/js/main.056e0215.js.map"
+    "main.a8600e77.css.map": "/portfolio/static/css/main.a8600e77.css.map",
+    "main.8e52d54e.js.map": "/portfolio/static/js/main.8e52d54e.js.map"
   },
   "entrypoints": [
-    "static/css/main.16a8d4d0.css",
-    "static/js/main.056e0215.js"
+    "static/css/main.a8600e77.css",
+    "static/js/main.8e52d54e.js"
   ]
 }
